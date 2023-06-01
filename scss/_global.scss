@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  background: #e6e6e7;
+}
+.container {
+  width: 857px;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
